@@ -1,15 +1,18 @@
-<!DOCTYPE html>
-<html lang="uk"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="Контакти TechStore" name="description"/><meta content="контакти,форма,iframe,audio,video" name="keywords"/><meta content="Студент" name="author"/><title>TechStore — контакти</title><link href="style.css" rel="stylesheet"/></head><body id="top"><header><img alt="TechStore" src="images/logo.svg"/><h1>TechStore</h1><p>Навчальний сайт-каталог продукції компанії</p></header><nav><ul><li><a href="index.html">Головна</a></li><li><a href="catalog.html">Каталог</a><ul><li><a href="catalog.html#laptops">Ноутбуки</a></li><li><a href="catalog.html#accessories">Аксесуари</a></li></ul></li><li><a href="contacts.html">Контакти</a><ul><li><a href="contacts.html#form">Форма</a></li><li><a href="contacts.html#frame">Фрейм</a></li></ul></li></ul></nav><footer><p>© 2026 TechStore. Навчальний вебсайт. <a href="#top" style="color:white">Вгору</a></p></footer><a href="#top" id="top-link">↑</a><section class="media-section" id="media">
-<h2>Аудіо та відео</h2>
-<p>У цьому розділі додано мультимедійні елементи HTML5 з елементами керування.</p>
-<h3>Аудіоогляд TechStore</h3>
-<audio controls="">
-<source src="media/techstore-audio.mp3" type="audio/mpeg"/>
+<!DOCTYPE html><html lang="uk"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Контакти TechStore"><meta name="keywords" content="контакти,форма,iframe,audio,video"><meta name="author" content="Студент"><title>TechStore — контакти</title><link rel="stylesheet" href="style.css"></head><body id="top"><header><img src="images/logo.svg" alt="TechStore"><h1>TechStore</h1><p>Навчальний сайт-каталог продукції компанії</p></header><nav><ul><li><a href="index.html">Головна</a></li><li><a href="catalog.html">Каталог</a><ul><li><a href="catalog.html#laptops">Ноутбуки</a></li><li><a href="catalog.html#accessories">Аксесуари</a></li></ul></li><li><a href="contacts.html">Контакти</a><ul><li><a href="contacts.html#form">Форма</a></li><li><a href="contacts.html#frame">Фрейм</a></li></ul></li></ul></nav><div class="wrapper"><main><section id="form"><h2>Форма замовлення</h2><form action="#" method="post"><label>Ім'я <input type="text" name="name" required maxlength="40" placeholder="Ваше ім'я"></label><label>Email <input type="email" name="email" required placeholder="name@example.com"></label><label>Телефон <input type="tel" name="phone" required pattern="\+380[0-9]{9}" placeholder="+380501112233"></label><label>Дата і час отримання <input type="datetime-local" name="date" required></label><label>Сторінка або сайт <input type="url" name="site" placeholder="https://example.com"></label><label>Кількість товарів <input type="number" name="count" min="1" max="10" step="1" required></label><label>Повідомлення <textarea name="message" rows="5" maxlength="350" placeholder="Наприклад: цікавить Apple MacBook Air 13 M2"></textarea></label><button type="submit">Надіслати</button></form></section><section id="frame"><h2>Фрейм</h2><iframe src="catalog.html" title="Каталог у фреймі" height="280"></iframe></section><section class="media-section" id="media">
+  <h2>Аудіо та відео</h2>
+  <p>У цьому розділі додано мультимедійні елементи HTML5 з елементами керування.</p>
+
+  <h3>Аудіоогляд TechStore</h3>
+  <audio controls>
+    <source src="media/techstore-audio.mp3" type="audio/mpeg">
     Ваш браузер не підтримує аудіо.
   </audio>
-<h3>Відеоогляд техніки</h3>
-<video controls="" preload="metadata" width="100%">
-<source src="media/techstore-video.mp4" type="video/mp4"/>
+
+  <h3>Відеоогляд техніки</h3>
+  <video controls width="100%" preload="metadata">
+    <source src="media/techstore-video.mp4" type="video/mp4">
     Ваш браузер не підтримує відео.
   </video>
-</section></body></html>
+</section>
+
+</main><aside><h3>Адреса</h3><p>м. Харків, навчальна адреса, 1</p><p>Email: info@techstore.example</p><p><a href="index.html">На головну</a></p></aside></div><footer><p>© 2026 TechStore. Навчальний вебсайт. <a style="color:white" href="#top">Вгору</a></p></footer><a id="top-link" href="#top">↑</a></body></html>
