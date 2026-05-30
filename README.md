@@ -36,3 +36,9 @@ LR1_TechStore/
 
 ## Приклади товарів
 У каталозі використано реалістичні назви техніки: Apple MacBook Air, Lenovo IdeaPad, ASUS Vivobook, Samsung Galaxy, Xiaomi Redmi, Apple AirPods, Logitech Signature та Kingston DataTraveler. Ціни наведені як навчальні орієнтовні значення для оформлення лабораторної роботи.
+
+
+## Мультимедіа
+На сторінці `contacts.html` додано HTML5-аудіо та відео:
+- `media/techstore-audio.mp3`
+- `media/techstore-video.mp4`

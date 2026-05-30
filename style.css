@@ -2,3 +2,24 @@
 .table-products th:nth-child(1),.table-products td:nth-child(1){width:34%}
 .table-products th:nth-child(2),.table-products td:nth-child(2){width:48%}
 .table-products th:nth-child(3),.table-products td:nth-child(3){width:18%;white-space:nowrap}
+
+.media-section {
+  margin-top: 24px;
+  padding: 20px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #d9e2ec;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+}
+
+.media-section audio,
+.media-section video {
+  display: block;
+  width: 100%;
+  margin: 10px 0 18px;
+  border-radius: 12px;
+}
+
+.media-section h3 {
+  margin-top: 14px;
+}
